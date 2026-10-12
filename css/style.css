@@ -37,16 +37,11 @@ body{
 }
 
 footer {
-    margin-top: 150px;
     background-image: url(../img/gyokerek.png);
-    height: auto;
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    left:0;
+    position-anchor: initial;
     border-radius: 5px;
 }
 
@@ -82,4 +77,8 @@ footer {
 nav{
     margin-top: -20px ;
     opacity: 0.7;
+}
+
+body{
+    background-attachment: scroll;
 }
