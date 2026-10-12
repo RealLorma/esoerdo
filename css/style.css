@@ -116,3 +116,7 @@ main img{
     width: auto;
     height: 200px;
 }
+
+article {
+    text-align: justify;
+}
