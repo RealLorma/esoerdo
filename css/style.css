@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
 header {
     background-image: url(/img/header.jpg);
     color: #ffffff;
@@ -23,13 +32,34 @@ header h1{
     padding-top: 100px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+}
 
-body{
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.5;
+.btn-icon {
+    padding: 10px;
+
+}
+
+.btn-icon:hover {
+    background-color: #000;
+}
+
+.menu-icon span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: end;
 }
 
 footer {
