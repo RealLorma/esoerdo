@@ -13,6 +13,7 @@ header {
     background-attachment: fixed;
     background-position: bottom;
     border-radius: 5px;
+    margin-top: -20px;
 }
 
 header h1{
@@ -23,7 +24,8 @@ header h1{
     border-radius: 10px;
     font-size: 50px;
     padding: 30px;
-    height: auto
+    height: auto;
+    padding-top: 100px; 
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -42,3 +44,12 @@ body{
 .footerOszlop a {
     font-size: 20px;
  }
+
+.drawer img{
+    margin: 0px 0px -14px 0px;
+}
+
+nav{
+    margin-top: -20px ;
+    opacity: 0.7;
+}
