@@ -14,6 +14,7 @@ header {
     background-position: bottom;
     border-radius: 5px;
     margin-top: -20px;
+    margin-top: 0px;
 }
 
 header h1{
@@ -36,12 +37,37 @@ body{
   line-height: 1.5;
 }
 
+footer {
+    margin-top: 150px;
+    background-image: url(../img/gyokerek.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
 .footerOszlop{
     width: 33%;
+    color: #ffffff;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
 }
 
 .footerOszlop a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footerOszlop P {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.bi {
     font-size: 20px;
  }
 
