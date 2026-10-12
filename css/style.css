@@ -14,7 +14,7 @@ header {
     background-size: cover;
     height: 300px;
     width: 100%;
-    background-color: rgba(0,0,0, 0.60);
+    background-color: rgba(0, 0, 0, 0.60);
     box-shadow: 0px 0px 100px 10px #000;
     background-attachment: fixed;
     background-position: bottom;
@@ -22,9 +22,9 @@ header {
     margin-top: -20px;
 }
 
-header h1{
+header h1 {
     box-shadow: 0px 0px 100px 10px #000;
-    background-color: rgba(0,0,0, 0.47);
+    background-color: rgba(0, 0, 0, 0.47);
     border-radius: 10px;
     font-size: 50px;
     padding: 30px;
@@ -71,7 +71,7 @@ footer {
     border-radius: 5px;
 }
 
-.footerOszlop{
+.footerOszlop {
     width: 33%;
     color: #ffffff;
     text-align: center;
@@ -94,27 +94,46 @@ footer {
 
 .bi {
     font-size: 20px;
- }
+}
 
-.drawer img{
+.drawer img {
     margin: 0px 0px -14px 0px;
 }
 
-nav{
-    margin-top: -20px ;
+nav {
+    margin-top: -20px;
     opacity: 0.7;
     background-color: rgb(69, 108, 69);
 }
 
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     color: #ffffff;
 }
 
-
-main img{
+main img {
     width: auto;
     height: 200px;
+}
+
+.top-link {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    background-color: rgba(30, 70, 40, 0.85);
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: #000 solid 1px ;
+}
+
+.top-link:hover{
+    background-color: rgba(255, 255, 255, 0.85) ;
+    color: #000;
 }
 
 article {
