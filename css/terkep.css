@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    background: #071a13;
+    color: #f1f7ed;
+    font-family: Arial, sans-serif;
+    padding: 100px;
+}
+
+header {
+    padding: 22px;
+    text-align: center;
+    background: #102c20;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    color: #a9e8a8;
+}
+
+header p {
+    margin: 0;
+    color: #c7d8ca;
+}
+
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px;
+}
+
+button {
+    border: 1px solid #477b56;
+    border-radius: 9px;
+    background: #183b29;
+    color: white;
+    padding: 11px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover,
+button.active {
+    background: #2c7544;
+}
+
+#map {
+    width: 100%;
+    height: 68vh;
+    min-height: 430px;
+    background: rgb(142, 89, 10);
+}
+
+.legend {
+    padding: 12px 18px;
+    color: #d1e3d3;
+    font-size: 13px;
+    text-align: center;
+}
+
+.info {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 1.7;
+}
+
+.info h2 {
+    color: #a9e8a8;
+}
+
+.map-marker {
+    font-size: 27px;
+    cursor: pointer;
+    filter: drop-shadow(0 2px 3px #000);
+}
+
+.maplibregl-popup-content {
+    color: #18291e;
+    border-radius: 10px;
+    max-width: 260px;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    #map {
+        height: 62vh;
+        min-height: 380px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
