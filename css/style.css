@@ -107,6 +107,12 @@ nav {
     background-color: #456c45;
 }
 
+.nav-link.active {
+    color: #fff;
+    font-size: 20px;
+    background-color: #456c45;
+}
+
 
 .navbar-toggler-icon {
     color: #ffffff;
