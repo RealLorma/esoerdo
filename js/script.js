@@ -8,3 +8,9 @@ const nap = maiDatum.getDate();
 var evek = maiDatum.toLocaleDateString();
 
 maiNap.innerHTML = evek;
+
+
+
+
+
+

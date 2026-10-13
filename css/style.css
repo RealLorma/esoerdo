@@ -138,7 +138,6 @@ main img {
 }
 
 article {
-    text-align: justify;
     background-color: #f3f3e1;
     box-shadow: 10px 10px 100px 10px #456c45;
 }
@@ -155,8 +154,11 @@ main {
 .card-body {
     background-color: #456c45;
     color: #fff;
+    letter-spacing: -0.5px;
 }
 
-.btn-solid {
+article .btn-solid {
     background-color: #456c45;
 }
+
+
