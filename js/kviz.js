@@ -55,6 +55,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 function loadQuestion() {
+    document.getElementById('currentquestion').innerHTML = currentQuestionIndex + 1;
     const question = questions[currentQuestionIndex];
     document.getElementById('question').innerText = question.question;
     const optionsContainer = document.getElementById('options');
