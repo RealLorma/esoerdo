@@ -1,18 +1,53 @@
 const questions = [
     {
-        question: "What is the capital of France?",
-        options: ["Berlin", "Madrid", "Paris", "Rome"],
-        answer: "Paris"
+        question: "Melyik a világ legnagyobb esőerdeje?",
+        options: ["Kongói esőerdő", "Amazonasi esőerdő", "Délkelet-ázsiai esőerdő", "Daintree esőerdő"],
+        answer: "Amazonasi esőerdő"
     },
     {
-        question: "Which programming language is used for web development?",
-        options: ["Python", "Java", "JavaScript", "C++"],
-        answer: "JavaScript"
+        question: "Melyik kontinensen található az Amazonas esőerdejének legnagyobb része?",
+        options: ["Afrika", "Ázsia", "Dél-Amerika", "Ausztrália"],
+        answer: "Dél-Amerika"
     },
     {
-        question: "Who developed the theory of relativity?",
-        options: ["Isaac Newton", "Nikola Tesla", "Albert Einstein", "Galileo Galilei"],
-        answer: "Albert Einstein"
+        question: "Melyik állat él az esőerdőkben?",
+        options: ["Jegesmedve", "Jaguár", "Pingvin", "Sarki róka"],
+        answer: "Jaguár"
+    },
+    {
+        question: "Milyen az éghajlat a trópusi esőerdőkben?",
+        options: ["Hideg és száraz", "Meleg és csapadékos", "Hűvös és szeles", "Forró és csapadékmentes"],
+        answer: "Meleg és csapadékos"
+    },
+    {
+        question: "Melyik növény jellemző a trópusi esőerdőkre?",
+        options: ["Kaktusz", "Lucfenyő", "Orchidea", "Levendula"],
+        answer: "Orchidea"
+    },
+    {
+        question: "Mi az egyik legfontosabb szerepe az esőerdőknek a Földön?",
+        options: ["A sivatagok növelése", "A biológiai sokféleség megőrzése", "A vulkánkitörések megakadályozása", "A tengerek sótartalmának csökkentése"],
+        answer: "A biológiai sokféleség megőrzése"
+    },
+    {
+        question: "Melyik veszélyezteti leginkább az esőerdőket?",
+        options: ["Az erdőirtás", "A holdfény", "A szivárványok", "A dagály"],
+        answer: "Az erdőirtás"
+    },
+    {
+        question: "Melyik állat híres arról, hogy lassan mozog, és gyakran a fákon él az esőerdőkben?",
+        options: ["Gepárd", "Lajhár", "Zebra", "Kenguru"],
+        answer: "Lajhár"
+    },
+    {
+        question: "Az esőerdők melyik szintjén található a legtöbb lombkorona?",
+        options: ["A talaj alatt", "A lombkoronaszintben", "A folyók medrében", "A sziklák belsejében"],
+        answer: "A lombkoronaszintben"
+    },
+    {
+        question: "Miért fontos megóvni az esőerdőket?",
+        options: ["Mert csak dísznövények élnek bennük", "Mert nincs bennük állati élet", "Mert élőhelyet biztosítanak sok fajnak és segítenek szabályozni a klímát", "Mert megakadályozzák az összes vihart"],
+        answer: "Mert élőhelyet biztosítanak sok fajnak és segítenek szabályozni a klímát"
     }
 ];
 
