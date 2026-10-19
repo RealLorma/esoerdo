@@ -127,8 +127,30 @@ footer {
     font-size: 18px;
 }
 
-.bi {
-    font-size: 20px;
+.alcim {
+    margin-top: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bi-tree-fill, .bi-recycle {
+    color: #456c45;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.bi-exclamation-triangle {
+    color: #ff0000;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.bi-coin {
+    color: #ffa500;
+    font-size: 30px;
+    padding-right: 10px;
 }
 
 article {
@@ -137,6 +159,30 @@ article {
     padding: 50px;
     margin-bottom: 150px;
     margin-top: 50px;
+}
+
+.btn-solid {
+    background-color: #456c45;
+}
+
+.top-link {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    background-color: rgba(30, 70, 40, 0.85);
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: #000 solid 1px ;
+}
+
+.top-link:hover{
+    background-color: rgba(255, 255, 255, 0.85) ;
+    color: #000;
 }
 
 @media screen and (max-width: 575px) {
