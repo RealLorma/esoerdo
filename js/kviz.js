@@ -93,6 +93,7 @@ function checkAnswer(selectedOption) {
 }
 
 function showResult() {
+    document.getElementById('utasitas').style.display = 'none';
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('result').style.display = 'block';
     document.getElementById('score').innerText = score;

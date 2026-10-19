@@ -56,23 +56,23 @@
         <section>
             <div class="container quiz-container">
                 <div class="quiz-header">
-                    <h2>MCQ Quiz</h2>
-                    <p>Answer the following questions:</p>
+                    <h2>Esőerdő kvíz</h2>
+                    <p id="utasitas">Válaszolj helyesen a következő kérdésekre:</p>
                 </div>
 
                 <div id="quiz">
                     <div class="quiz-question">
-                        <p id="question">Loading question...</p>
+                        <p id="question">Kérdés betöltése...</p>
                     </div>
                     <div id="options" class="list-group">
-                        <!-- Options will go here -->
+                        
                     </div>
-                    <button id="next-button" class="btn btn-primary mt-3">Next Question</button>
+                    <button type="button" id="next-button" class="btn btn-success mt-3">Következő kérdés</button>
                 </div>
 
                 <div id="result" class="result">
-                    <p>Your score is: <span id="score">0</span>/3</p>
-                    <button id="retry-button" class="btn btn-secondary">Retry Quiz</button>
+                    <p class="points">Pontszámod: <span id="score">0</span>/10</p>
+                    <button type="button" id="retry-button" class="btn btn-success">Kvíz újrapróbálása</button>
                 </div>
             </div>
         </section>
