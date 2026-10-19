@@ -227,3 +227,32 @@ article .btn-solid {
         font-size: 16px;
     }
 }
+
+.btn-success{
+    color: #fff;
+    background-color: #456c45;
+}
+
+
+.magyarazat{
+    background-color: #456c45;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 2px #000;
+    color: #fff;
+}
+
+iframe{
+       box-shadow: 0px 0px 50px 2px #000;
+       border-radius: 20px; 
+}
+
+.magyarazat p{
+    padding-left:30px ;
+}
+
+.btn-success{
+        box-shadow: 0px 0px 50px 2px #000;
+}
+
