@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #f5f5dc;
+}
+
+header {
+    background-image: url(/img/header.jpg);
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.60);
+    box-shadow: 0px 0px 100px 10px #000;
+    background-attachment: fixed;
+    background-position: bottom;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+header h1 {
+    box-shadow: 0px 0px 100px 10px #000;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 30px;
+    height: auto;
+    padding-top: 100px;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+}
+
+.btn-icon {
+    padding: 10px;
+}
+
+.btn-icon:hover {
+    background-color: #000;
+}
+
+.menu-icon span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.drawer img {
+    margin: 0px 0px -14px 0px;
+}
+
+nav {
+    margin-top: -20px;
+    opacity: 0.7;
+    background-color: #456c45;
+}
+
+.nav-link.active {
+    color: #fff;
+    font-size: 20px;
+    background-color: #456c45;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
+footer {
+    background-image: url(../img/gyokerek.png);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 100px 10px #000;
+}
+
+.footerOszlop {
+    width: 50%;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ikonok {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerOszlop a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footerOszlop p {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.jog {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.szerzok {
+    font-size: 18px;
+}
+
+.alcim {
+    margin-top: 50px;
+}
+
+.alszoveg {
+    color: #fff;
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.dolt {
+    font-style: italic;
+}
+
+.top-link {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    background-color: rgba(30, 70, 40, 0.85);
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: #000 solid 1px ;
+}
+
+.top-link:hover{
+    background-color: rgba(255, 255, 255, 0.85) ;
+    color: #000;
+}
+
+@media screen and (max-width: 852px) {
+    .alszoveg {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+    .eltunik {
+        display: none;
+    }
+
+    .ikonok {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .ikonok a {
+        padding: 5px;
+    }
+
+    .footerOszlop p {
+        font-size: 16px;
+    }
+}

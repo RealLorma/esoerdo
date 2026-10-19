@@ -13,7 +13,7 @@ header {
     color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.60);
     box-shadow: 0px 0px 100px 10px #000;
@@ -59,7 +59,7 @@ header h1 {
 
 .navbar .container-fluid {
     display: flex;
-    justify-content: end;
+    flex-wrap: nowrap;
 }
 
 .drawer img {
@@ -127,8 +127,30 @@ footer {
     font-size: 18px;
 }
 
-.bi {
-    font-size: 20px;
+.alcim {
+    margin-top: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bi-tree-fill, .bi-recycle {
+    color: #456c45;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.bi-exclamation-triangle {
+    color: #ff0000;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.bi-coin {
+    color: #ffa500;
+    font-size: 30px;
+    padding-right: 10px;
 }
 
 article {
@@ -137,6 +159,48 @@ article {
     padding: 50px;
     margin-bottom: 150px;
     margin-top: 50px;
+}
+
+.btn-solid {
+    background-color: #456c45;
+}
+
+.alszoveg {
+    color: #fff;
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.dolt {
+    font-style: italic;
+}
+
+.top-link {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    background-color: rgba(30, 70, 40, 0.85);
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: #000 solid 1px ;
+}
+
+.top-link:hover{
+    background-color: rgba(255, 255, 255, 0.85) ;
+    color: #000;
+}
+
+@media screen and (max-width: 852px) {
+    .alszoveg {
+        font-size: 15px;
+    }
+    
 }
 
 @media screen and (max-width: 575px) {

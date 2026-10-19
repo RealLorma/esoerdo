@@ -13,7 +13,7 @@ header {
     color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.60);
     box-shadow: 0px 0px 100px 10px #000;
@@ -60,7 +60,7 @@ header h1 {
 
 .navbar .container-fluid {
     display: flex;
-    justify-content: end;
+    flex-wrap: nowrap;
 }
 
 footer {
@@ -169,7 +169,8 @@ li {
 }
 
 .bi-droplet-fill {
-    margin-left: -20px;
+    padding-right: 10px;
+    color: #00c7c7;
 }
 
 main {
@@ -193,6 +194,17 @@ article .btn-solid {
     background-color: #456c45;
 }
 
+.alszoveg {
+    color: #fff;
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.dolt {
+    font-style: italic;
+}
+
 
 @media screen and (max-width: 767px) {
     .card {
@@ -202,13 +214,18 @@ article .btn-solid {
     }
 }
 
+@media screen and (max-width: 852px) {
+    .alszoveg {
+        font-size: 15px;
+    }
+    
+}
+
 @media screen and (max-width: 575px) {
     article {
         padding: 30px;
     }
-}
 
-@media screen and (max-width: 575px) {
     .eltunik {
         display: none;
     }
