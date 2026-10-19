@@ -131,6 +131,33 @@ footer {
     font-size: 20px;
 }
 
+.quiz-container {
+    margin-top: 50px;
+    max-width: 600px;
+}
+
+.quiz-header {
+    text-align: center;
+}
+
+.quiz-question {
+    font-size: 1.5rem;
+}
+
+.quiz-option {
+    cursor: pointer;
+}
+
+.quiz-option:hover {
+    background-color: #f0f0f0;
+}
+
+.result {
+    display: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 @media screen and (max-width: 575px) {
     .eltunik {
         display: none;
@@ -150,3 +177,4 @@ footer {
         font-size: 16px;
     }
 }
+
