@@ -162,6 +162,17 @@ footer {
     color: #000;
 }
 
+.card img{
+    height: auto;
+    width: auto;
+    background-size: contain;
+}
+
+.card{
+    width: 70%
+    
+}
+
 @media screen and (max-width: 852px) {
     .alszoveg {
         font-size: 15px;
