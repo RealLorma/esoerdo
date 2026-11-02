@@ -18,25 +18,25 @@ var parducHang = document.getElementById('parducHang');
 
 
 const hangLejatszo = (hang) => {
-    var audio = new Audio(hang+".mp3");
-    
+    var audio = new Audio(hang + ".mp3");
+
     audio.play().catch(hiba => {
         console.error("Nem sikerült lejátszani a hangot:", hiba);
     });
 }
 
-tukanHang.addEventListener("click",()=> {
+tukanHang.addEventListener("click", () => {
     hangLejatszo("sounds/tukanHang");
 });
 
-papagajHang.addEventListener("click",()=> {
+papagajHang.addEventListener("click", () => {
     hangLejatszo("sounds/papagajHang")
 });
 
-bogomajomHang.addEventListener("click",()=> {
+bogomajomHang.addEventListener("click", () => {
     hangLejatszo("sounds/bogomajomHang")
 });
 
-parducHang.addEventListener("click",()=> {
+parducHang.addEventListener("click", () => {
     hangLejatszo("sounds/parducHang")
 });
