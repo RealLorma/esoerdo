@@ -88,7 +88,7 @@ function checkAnswer(selectedOption) {
     if (currentQuestionIndex < questions.length - 1) {
         document.getElementById('next-button').disabled = false;
     } else {
-        document.getElementById('next-button').innerText = "Show Results";
+        document.getElementById('next-button').innerText = "Eredmény mutatása";
         document.getElementById('next-button').disabled = false;
     }
 }
